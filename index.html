@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.css ">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+    <style>
+
+
+#clockdiv{
+  font-family: sans-serif;
+  color: #fff;
+  display: inline-block;
+  font-weight: 100;
+  text-align: center;
+  font-size: 30px;
+}
+
+#clockdiv > div{
+  padding: 10px;
+  border-radius: 3px;
+  background: #00BF96;
+  display: inline-block;
+}
+
+#clockdiv div > span{
+  padding: 15px;
+  border-radius: 3px;
+  background: #00816A;
+  display: inline-block;
+}
+
+.smalltext{
+  padding-top: 5px;
+  font-size: 16px;
+}
+    </style>
+</head>
+<body>
+    <header>
+       
+         <nav class="transparent z-depth-0">
+                <div class="container">
+            <div class="nav-wrapper ">
+                <a href="index.html" class="brand-logo black-text">Orenox</a>
+                <a href="#!" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
+        
+                <ul class="hide-on-med-and-down right active">
+                  <li class=""><a href="index.html" class="black-text">Home</a></li>
+                  <li><a class='dropdown-trigger black-text ' href='#' data-target='dropdown1'>Shop<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <li><a class='dropdown-trigger black-text ' href='#' data-target='dropdown2'>Pages<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <li class=""><a href="blog.html" class="black-text">Blog</a></li>
+                  <li><a href="" class="black-text">Contact</a></li>
+     <li><i class="material-icons black-text" >favorite</i></li>
+     <a class="waves-effect waves-light modal-trigger" href="#modal1"><i class="material-icons black-text">add_shopping_cart</i></a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+    </div>
+  </div>
+     <li><i class="material-icons black-text">search</i></li>
+              </div>
+            </div>
+              </ul>
+         
+
+  
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="shop-category.html" class="black-text">Shop Category</a></li>
+    <li><a href="single-product.html" class="black-text">Product Details</a></li>
+  </ul>
+  <ul id='dropdown2' class='dropdown-content'>
+      <li><a href="login.html" class="black-text">Login</a></li>
+      <li><a href="tracking.html" class="black-text">Tracking</a></li>
+      <li><a href="product-checkout.html" class="black-text">Product Checkout</a></li>
+      <li><a href="cartproducts.html" class="black-text">Shopping Cart</a></li>
+      <li><a href="confirmation.html" class="black-text">Confirmation</a></li>
+  </ul>
+      
+              </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                    <li class=""><a href="">Home</a></li>
+                    <li><a class='dropdown-trigger ' href='#' data-target='dropdown4'>Shop<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class='dropdown-trigger ' href='#' data-target='dropdown5'>Pages<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class='dropdown-trigger ' href='#' data-target='dropdown6'>Blog<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="">Contact</a></li>
+  
+            </ul>
+            <ul id='dropdown4' class='dropdown-content'>
+                    <li><a href="shop-category.html" class="black-text">Shop Category</a></li>
+                    <li><a href="single-product.html" class="black-text">Product Details</a></li>
+                  </ul>
+      <ul id='dropdown5' class='dropdown-content'>
+            <li><a href="login.html" class="black-text">Login</a></li>
+        <li><a href="tracking.html" class="black-text">Tracking</a></li>
+        <li><a href="product-checkout.html" class="black-text">Product Checkout</a></li>
+        <li><a href="cartproducts.html" class="black-text">Shopping Cart</a></li>
+        <li><a href="confirmation.html" class="black-text">Confirmation</a></li>
+        <li><a href="#!" class="black-text">Elements</a></li>
+          </ul>
+          <ul id='dropdown6' class='dropdown-content'>
+                <li><a href="#!" class="black-text">Blog</a></li>
+                <li><a href="#!" class="black-text">Single Blog</a></li>
+              </ul>
+                  </div>
+        </nav> 
+        <div class="container" >
+                <div class="row" style="margin-top: 19%">
+                    <div class="col s12 l6" >
+                        <h3><b >Wood & Cloth Sofa</b></h3>
+                        <p>When it comes to furnishing your home, finding the perfect furniture that is both stylish and functional is one of the best parts about owning a home. You can let your inner interior designer flourish sorting through all the decoration options, deciding on how to blend colors, patterns, and materials.</p>
+                        <a href="" class="btn-large">Buy Now</a>
+                    </div>
+                    <div class="col s12 l6">
+                            <img src="assets/images/banner_img.png" class="responsive-img" >
+                        </div>
+                </div>
+            </div>
+    </header>
+<section class="section">
+<h3 id="hero"><b >Featured Category</b></h3>
+<div class="container">
+    <div class="row">
+        <div class="card">
+        <div class="col s12 l6" style="background-color: #f8fbff;" >
+            <div class="container">
+            <div class="row">
+                <div class="col s6">
+                <p>Premium Quality</p>
+                <h6 style="float: left;"><b>Latest Foam Sofa</b></h6>
+                </div>
+                <div class="col s6">
+            <img src="assets/images/ore.png" class="responsive-img">
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="col s12 l6" style="background-color: #f8fbff;" >
+            <div class="container">
+            <div class="row">
+                <div class="col s6">
+                <p>Premium Quality</p>
+                <h6 style="float: left;"><b>Latest Foam Sofa</b></h6>
+                </div>
+                <div class="col s6">
+            <img src="assets/images/ore.png" class="responsive-img">
+            </div>
+        </div>
+    </div>
+    </div>
+        </div>
+        <div class="card">
+                <div class="col s12 l6" style="background-color: #f8fbff;" >
+                    <div class="container">
+                    <div class="row">
+                        <div class="col s6">
+                        <p>Premium Quality</p>
+                        <h6 style="float: left;"><b>Latest Foam Sofa</b></h6>
+                        </div>
+                        <div class="col s6">
+                    <img src="assets/images/ore4.jpg" class="responsive-img">
+                    </div>
+                </div>
+            </div>
+            </div>
+                </div>
+                <div class="card">
+                        <div class="col s12 l6" style="background-color: #f8fbff;" >
+                            <div class="container">
+                            <div class="row">
+                                <div class="col s6">
+                                <p>Premium Quality</p>
+                                <h6 style="float: left;"><b>Latest Foam Sofa</b></h6>
+                                </div>
+                                <div class="col s6">
+                            <img src="assets/images/ore3.png" class="responsive-img">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                        </div>
+                
+        
+</div>
+</div>
+</section>
+<section class="section" style="background-color: white">
+    <div class="container">
+           <h5><b>Bedroom Categories</b></h5>
+            <h5 class="grey-text"><b>Shop</b></h5>
+            <div class="row ">
+              <div class="col s12 l3 contain meek">
+                <img src="assets/images/bed.webp" class="responsive-img image">
+                <div class="middle">
+                  <div class="text">Drussilla Upholstered Standard Bed</div>
+                </div>
+               
+            </div>
+                <div class="col s12 l3 contain meek">
+                  <img src="assets/images/bed1.webp" class="responsive-img image">
+                  <div class="middle">
+                    <div class="text">Salina Upholstered Platform bed</div>
+                  </div>
+                 
+              </div>
+                    <div class="col s12 l3 contain meek">
+                      <img src="assets/images/susannah-upholstered-bed.webp" class="responsive-img image">
+                      <div class="middle">
+                        <div class="text">Susannah Upholstered Bed</div>
+                      </div>
+                     
+                  </div>
+                        <div class="col s12 l3 contain meek">
+                          <img src="assets/images/bed3.webp" class="responsive-img image">
+                          <div class="middle">
+                            <div class="text">Littrell Upholstered Platform Bed</div>
+                          </div>
+                         
+                      </div>
+            </div>
+            <div class="row">
+              <div class="col s12 l3 contain meek">
+                <img src="assets/images/bed4.webp" class="responsive-img image">
+                <div class="middle">
+                  <div class="text">Metal Farmhouse Bed</div>
+                </div>
+               
+            </div>
+                    <div class="col s12 l3 contain meek">
+                      <img src="assets/images/bed5.webp" class="responsive-img image">
+                      <div class="middle">
+                        <div class="text">Palace Bed</div>
+                      </div>
+                     
+                  </div>
+                        <div class="col s12 l3 contain meek">
+                          <img src="assets/images/bed6.webp" class="responsive-img image">
+                          <div class="middle">
+                            <div class="text">Hotel Bed</div>
+                          </div>
+                         
+                      </div>
+                            <div class="col s12 l3 contain meek">
+                                    <img src="assets/images/ade0.webp" class="responsive-img image">
+                                    <div class="middle">
+                                      <div class="text">Dark Blue Upholstered Bed</div>
+                                    </div>
+                                   
+                                </div>
+                </div>
+        </div>
+</section>
+<section class="section" style="background-color: #f8fbff;" >
+<div class="container">
+    <div class="row">
+        <div class="col s12 l6">
+            <img src="assets/images/c8.png" class="responsive-img">
+        </div>
+        <div class="col s12 l6">
+                <h2 class="hero_text"><b>Weekly Sale on 60% Off All Products</b></h2>
+                <div id="clockdiv">
+                        <div>
+                        <div class="smalltext">Days</div>
+                          <span class="days"></span>
+                        </div>
+                        <div>
+                        <div class="smalltext">Hours</div>
+                          <span class="hours"></span>
+                        </div>
+                        <div>
+                        <div class="smalltext">Minutes</div>
+                          <span class="minutes"></span>
+                        </div>
+                        <div>
+                            <div class="smalltext">Seconds</div>
+                          <span class="seconds"></span>
+                        </div>
+                      </div>
+                      
+                    <div class = "input-field ">
+                        <input placeholder = "Email" id = "email" type = "email"
+                        class = "validate">
+                        <label for = "email"></label>
+                        
+                        <a href="" class="btn-large white-text">Buy Now</a>
+                    </div>
+                    
+            </div>
+         
+      </div>
+    </div>
+
+</section>
+<section class="section">
+    
+       <div class="container">
+        <h5><b>Sofa Categories</b></h5>
+         <h5 class="grey-text"><b>Shop</b></h5>
+         <div class="row">
+            <div class="col s12 l3 contain">
+                <img src="assets/images/sofa.jpg" class="responsive-img image">
+                <div class="middle">
+                  <div class="text">Studio Chair Background</div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p><del>$123.00</del> - $1489</p>
+            </div>
+            <div class="col s12 l3 contain">
+                <img src="assets/images/sf.jpg" class="responsive-img image">
+                <div class="middle">
+                  <div class="text">Juper Sofa</div>
+                  
+                </div>
+                <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<p><del>$123.00</del> - $1489</p>
+            </div>
+            
+            <div class="col s12 l3 contain">
+                <img src="assets/images/ma.jpg" class="responsive-img image">
+                <div class="middle">
+                  <div class="text">Plywood Sofa</div>
+                </div>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <p><del>$123.00</del> - $1489</p>
+            </div>
+            
+                    <div class="col s12 l3 contain">
+                        <img src="assets/images/2.jpg" class="responsive-img image">
+                        <div class="middle">
+                          <div class="text">cadeira de praia com fundo branco</div>
+                        </div>
+                        <span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+                    </div>
+                    <p><del>$123.00</del> - $1489</p>
+                        </div>
+         </div>
+         </div>
+</section>
+<section class="eunice" >
+<div class="parallax-container">
+        <p id="read">Join Our  Newsletter</p>
+        <h3 id="real"><b>Subscribe to get Updated <br>with new offers</b></h3>
+        <div class="container">
+        <div class = "input-field ">
+                <input placeholder = "Email" id = "email" type = "email"
+                   class = "validate">
+                <label for = "email"></label>
+                
+                <a href="" class="btn-large white-text">Buy Now</a>
+             </div>
+            </div>
+    <div class="parallax">
+        <img src="assets/images/lil.png" class="responsive-img">
+        
+    </div>
+</div>
+</section>
+<section class="section12" style="background-color: white">
+  <div class="container">
+         <h5><b>Two Seaters Categories</b></h5>
+          <h5 class="grey-text"><b>Shop</b></h5>
+          <div class="row">
+              <div class="col s12 l3 contain">
+                  <img src="assets/images/as.webp" class="responsive-img image">
+                  <div class="middle">
+                    <div class="text">Couch</div>
+                    
+                  </div>
+                  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <p><del>$123.00</del> - $1489</p>
+              </div>
+              <div class="col s12 l3 contain">
+                  <img src="assets/images/as1.webp" class="responsive-img image">
+                  <div class="middle">
+                    <div class="text">Couch Sofa</div>
+                    
+                  </div>
+                  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <p><del>$123.00</del> - $1489</p>
+              </div>
+              <div class="col s12 l3 contain">
+                  <img src="assets/images/as2.webp" class="responsive-img image">
+                  <div class="middle">
+                    <div class="text">Studio Couch</div>
+                    
+                  </div>
+                  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <p><del>$123.00</del> - $1489</p>
+              </div>
+              <div class="col s12 l3 contain">
+                  <img src="assets/images/as3.webp" class="responsive-img image">
+                  <div class="middle">
+                    <div class="text">Mid Century LoveSeat</div>
+                    
+                  </div>
+                  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <p><del>$123.00</del> - $1489</p>
+              </div>
+                      
+          </div>
+          </div>
+          </section>
+          <section class="sectr" style="background-color: #d8e1fe">
+            <div class="container">
+              <div class="row">
+                <div class="col s12 l6">
+                  <img src="assets/images/09.png" class="responsive-img">
+                </div>
+                <div class="col s12 l6" style="padding-top:20%" >
+                  <p>#HANDMADE</p>
+                  <h5>Affordable Side Table</h5>
+                  <span style="font-size: 20px;font-weight: 600;color: #eb7025;">$101.21</span>
+                  <br><br>
+                  <a href="" class="btn-large16 hover">Add to Cart</a>
+                </div>
+          
+                
+              </div>
+            </div>
+          </section>
+          <div class="container">
+           <div class="row">
+             <div class="col s6 l4">
+               <i class="medium material-icons">add_shopping_cart</i>
+               <h5>Best Deal Online</h5>
+                 <div class="row">
+                   <div class="col s9">
+                      <p class="grey-text">We promise to get you the greatest deal on what you ordered online</p>
+                   </div>
+                   <div class="col s3">
+                      <div class="vl"></div>
+                   </div>
+                 </div>
+             </div>
+             <div class="col s6 l4">
+                <i class="medium material-icons">featured_play_list</i>
+                <h5>Secure Payment</h5>
+                  <div class="row">
+                    <div class="col s9">
+                       <p class="grey-text">We provide and secure your payment between our consumer</p>
+                    </div>
+                    <div class="col s3">
+                       <div class="vl"></div>
+                    </div>
+                  </div>
+              </div>
+              <div class="col s6 l4">
+                  <i class="medium material-icons">loop</i>
+                  <h5>15 Days Return</h5>
+                    <div class="row">
+                      <div class="col s9">
+                         <p class="grey-text">We provide 15 days return with the day and time you ordered</p>
+                      </div>
+                      <div class="col s3">
+                         <div class="vl"></div>
+                      </div>
+                    </div>
+                </div>
+           </div>
+          </div>
+          <!--Footer-->
+          <footer class="page-footer grey lighten-1">
+              <div class="container">
+                <div class="row">
+                  <div class="col l6 s12">
+                    <h5 class="white-text">About Orexy</h5>
+                    <p class="grey-text text-lighten-4">If you're looking to purchase furniture for your living room, you should think about buying living room sets. Buying a living room set will take all the trouble out of finding individual pieces of furniture that complement each other. Here at Wayfair, not only can you buy individual pieces of furniture for your living room, but you can also buy entire living room sets. Here are some questions that may arise as you search for the living room set of your dreams:</p>
+                  </div>
+                  <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                        <li><a class="grey-text text-lighten-3" href="shop-category.html">Shop Category</a></li>
+                        <li><a class="grey-text text-lighten-3" href="login.html">Login</a></li>
+                        <li><a class="grey-text text-lighten-3" href="blog.html">Blog</a></li>
+                        <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-copyright">
+                <div class="container">
+                This Template is Created with <span style="color:red;">&hearts;</span> by Girlscoding
+                <a class="grey-text text-lighten-4 right" href="index.html" >Back to top<i class="material-icons grey-text">keyboard_arrow_up</i></a>
+                </div>
+              </div>
+            </footer>
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.js"></script>
+<script>
+   
+   $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.dropdown-trigger').dropdown({hover: true});
+      $('.parallax').parallax();
+      $('.modal').modal();
+    
+    });
+    function getTimeRemaining(endtime) {
+  var t = Date.parse(endtime) - Date.parse(new Date());
+  var seconds = Math.floor((t / 1000) % 60);
+  var minutes = Math.floor((t / 1000 / 60) % 60);
+  var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
+  var days = Math.floor(t / (1000 * 60 * 60 * 24));
+  return {
+    'total': t,
+    'days': days,
+    'hours': hours,
+    'minutes': minutes,
+    'seconds': seconds
+  };
+}
+
+function initializeClock(id, endtime) {
+  var clock = document.getElementById(id);
+  var daysSpan = clock.querySelector('.days');
+  var hoursSpan = clock.querySelector('.hours');
+  var minutesSpan = clock.querySelector('.minutes');
+  var secondsSpan = clock.querySelector('.seconds');
+
+  function updateClock() {
+    var t = getTimeRemaining(endtime);
+
+    daysSpan.innerHTML = t.days;
+    hoursSpan.innerHTML = ('0' + t.hours).slice(-2);
+    minutesSpan.innerHTML = ('0' + t.minutes).slice(-2);
+    secondsSpan.innerHTML = ('0' + t.seconds).slice(-2);
+
+    if (t.total <= 0) {
+      clearInterval(timeinterval);
+    }
+  }
+
+  updateClock();
+  var timeinterval = setInterval(updateClock, 1000);
+}
+
+var deadline = new Date(Date.parse(new Date()) + 15 * 24 * 60 * 60 * 1000);
+initializeClock('clockdiv', deadline);
+   
+</script>
+</html>

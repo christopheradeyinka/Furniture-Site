@@ -1,0 +1,38 @@
+.btn-large10 {
+    display: inline-block;
+    padding: 13px 39px;
+    border-radius: 50px;
+    background-color: #ff3368;
+    border: 1px solid #ecfdff;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+    box-shadow: -1.717px 8.835px 29.76px 2.24px rgba(255, 51, 104, 0.18);
+    border: 1px solid #ff3368;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+
+}
+.btn-large10:hover {
+ background-color: red;
+ color: white;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap");
+i.material-icons.grey-text {
+  margin-bottom: 12%;
+}
+ header{
+    background-color: #ecfdff;
+    min-height: 100vh;
+  background-position: center;
+ 
+} 
+.dropdown-content{
+    width:20%;
+    overflow: hidden;
+    display: block;
+    border: 0px solid transparent;
+    background-color: #ff3368;
+  }

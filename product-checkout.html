@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.css ">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style5.css">
+    <title>Document</title>
+</head>
+<style>
+
+</style>
+<body>
+    <header>
+       
+         <nav class="transparent z-depth-0">
+                <div class="container">
+            <div class="nav-wrapper ">
+                <a href="index.html" class="brand-logo black-text">Orenox</a>
+                <a href="#!" class="sidenav-trigger" data-target="mobile-demo"><i class="material-icons black-text">menu</i></a>
+        
+                <ul class="hide-on-med-and-down right active">
+                  <li class=""><a href="index.html" class="black-text">Home</a></li>
+                  <li><a class='dropdown-trigger black-text ' href='#' data-target='dropdown1'>Shop<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <li><a class='dropdown-trigger black-text ' href='#' data-target='dropdown2'>Pages<i class="material-icons right">arrow_drop_down</i></a></li>
+                  <li class=""><a href="blog.html" class="black-text">Blog</a></li>
+                  <li><a href="" class="black-text">Contact</a></li>
+     <li><i class="material-icons black-text" >favorite</i></li>
+     <li><i class="material-icons black-text">add_shopping_cart</i></li>
+     <li><i class="material-icons black-text">search</i></li>
+              </div>
+            </div>
+              </ul>
+         
+
+  
+  <ul id='dropdown1' class='dropdown-content'>
+    <li><a href="shop-category.html" class="black-text">Shop Category</a></li>
+    <li><a href="single-product.html" class="black-text">Product Details</a></li>
+  </ul>
+  <ul id='dropdown2' class='dropdown-content'>
+      <li><a href="login.html" class="black-text">Login</a></li>
+    <li><a href="tracking.html" class="black-text">Tracking</a></li>
+    <li><a href="product-checkout.html" class="black-text">Product Checkout</a></li>
+    <li><a href="cartproducts.html" class="black-text">Shopping Cart</a></li>
+    <li><a href="confirmation.html" class="black-text">Confirmation</a></li>
+  </ul>
+    
+              </div>
+            </nav>
+            <ul class="sidenav" id="mobile-demo">
+                    <li class=""><a href="">Home</a></li>
+                    <li><a class='dropdown-trigger ' href='#' data-target='dropdown4'>Shop<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class='dropdown-trigger ' href='#' data-target='dropdown5'>Pages<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a class='dropdown-trigger ' href='#' data-target='dropdown6'>Blog<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="">Contact</a></li>
+  
+            </ul>
+            <ul id='dropdown4' class='dropdown-content'>
+                    <li><a href="shop-category.html" class="black-text">Shop Category</a></li>
+                    <li><a href="#!" class="black-text">Product Details</a></li>
+                  </ul>
+      <ul id='dropdown5' class='dropdown-content'>
+            <li><a href="login.html" class="black-text">Login</a></li>
+        <li><a href="#!" class="black-text">Tracking</a></li>
+        <li><a href="#!" class="black-text">Product Checkout</a></li>
+        <li><a href="#!" class="black-text">Shopping Cart</a></li>
+        <li><a href="#!" class="black-text">Confirmation</a></li>
+        <li><a href="#!" class="black-text">Elements</a></li>
+          </ul>
+          <ul id='dropdown6' class='dropdown-content'>
+                <li><a href="#!" class="black-text">Blog</a></li>
+                <li><a href="#!" class="black-text">Single Blog</a></li>
+              </ul>
+                  </div>
+        </nav> 
+        <div class="container" >
+                <div class="row" style="margin-top: 19%">
+                    <div class="col s12 l6" >
+                        <h3><b >Checkout Product</b></h3>
+                        <p class="grey-text">Home - Checkout Product</p>
+                    </div>
+                    <div class="col s12 l6">
+                            <img src="assets/images/ore.png" class="responsive-img" >
+                        </div>
+                </div>
+            </div>
+    </header>
+  <section class="sec">
+    <div class="container">
+      <h6 id="data">Returning Customer? <span style="color:#ff3368;text-decoration: underline">Click here to login</span></h6>
+    </div>
+    <div class="container">
+    <div class="row">
+        <div class="input-field col s6">
+          <input id="type" type="text" class="validate" required >
+          <label for="type">Username or Email</label>
+        </div>
+          <div class="input-field col s6 ">
+            <input type="password" class="validate" minlength="6" required >
+            <label for="password">Password</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col 12 l3">
+        <a href="#" class="btn-large11 hover">Log in</a>
+      </div>
+      <div class="col s12 l9">
+        <form action="#">
+            <p>
+              <label>
+                <input type="checkbox"  />
+                <span>Remember Me</span>
+              </label>
+            </p>
+            </form>
+          </div>
+          </div>
+          <p class="on">Forgot Password?</p>
+          
+    </div>
+    
+  </section>
+        <section class="sec">
+            <div class="container">
+              <h6 id="data">Have a coupon? <span style="color:#ff3368;text-decoration: underline">Click here to enter your code</span></h6>
+              
+              <div class="row">
+                  <div class="input-field col s12">
+                          <input type="number" id="gsm" name="gsm" min="1" required/>
+                          <label for="gsm">Enter Coupon Code</label>
+                          </div>
+                          <a href="#" class="btn-large12 hover">Submit</a>
+                      </div>
+                    </div> 
+        </section>
+    </div>
+<section class="union">
+  <div class="container">
+    <h3 class="hero">Billing Details</h3>
+    <div class="row">
+      <div class="col s12 l7">
+          <form class="col s12" id="reg-form">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix ">account_circle</i>
+                  <input id="first_name" type="text" class="validate" required>
+                  <label for="first_name">First Name</label>
+                </div>
+              <div class="row">
+                <div class="input-field col s6">
+                    <i class="material-icons prefix ">account_circle</i>
+                  <input id="last_name" type="text" class="validate" required>
+                  <label for="last_name">LastName</label>
+                </div>
+              </div>
+              <div class="row">
+                  <div class="input-field col s6">
+                    <i class="material-icons prefix">email</i>
+                    <input id="email" type="email" class="validate" required>
+                    <label for="email">Email</label>
+                  </div>
+                
+                    <div class="input-field col s6">
+                        <i class="material-icons prefix">call</i>
+                            <input type="number" id="gsm" name="gsm" min="1" required/>
+                            <label for="gsm">Your number</label>
+                            </div>
+                            
+                        </div>
+                       
+                       
+                        <select class="browser-default">
+                          <option value="" disabled selected>Choose your option</option>
+                          <option value="1">Abia</option>
+                          <option value="2">Adamawa</option>
+                          <option value="3">Akwaibom</option>
+                          <option value="4">Bauchi</option>
+                          <option value="5">Bayelsa</option>
+                          <option value="6">Benue</option>
+                          <option value="7">Borno State</option>
+                          <option value="8">Cross River State</option>
+                          <option value="9">Delta State</option>
+                          <option value="10">Ebonyi State</option>
+                          <option value="11">Edo State</option>
+                          <option value="12">Ekiti State</option>
+                          <option value="13">Enugu State</option>
+                          <option value="14">Gombe State</option>
+                        </select>
+        </form>
+      </div>
+    
+    </div>
+    <div class="col 12 l5">
+       
+    
+        <div class="table-responsive">
+            <table class="table">
+            <tbody>
+                <tr>
+                    <td>
+                    <h5 class="sub-hero">YOUR ORDER</h5>
+                    </td>
+                    <td>
+                    </td>
+                    </tr>
+              <tr>
+                  <td>
+                  <h6 class="grey-text">Product</h6>
+                  </td>
+                  <td>
+                  <h6 class="grey-text">Total</h>
+                  </td>
+                  </tr>
+                  <tr>
+                      <td>
+                      <h6 class="grey-text">Denim Chair</h6>
+                      </td>
+                      <td>
+                      <h6 class="grey-text">$150.00</h6>
+                      </td>
+                      </tr>
+                      <tr>
+                          <td>
+                          <h6 class="grey-text">Denim Chair</h6>
+                          </td>
+                          <td>
+                          <h6 class="grey-text">$150.00</h6>
+                          </td>
+                          </tr>
+                          <tr>
+                              <td>
+                              <h6 class="grey-text">Denim Chair</h6>
+                              </td>
+                              <td>
+                              <h6 class="grey-text">$150.00</h6>
+                              </td>
+                              </tr>
+                              <tr>
+                                  <td>
+                                  <h6><b>SUBTOTAL</b></h6>
+                                  </td>
+                                  <td>
+                                  <h6 class="grey-text">$216.00</h6>
+                                  </td>
+                                  </tr>
+                                  <tr>
+                                      <td>
+                                      <h6><b>SHIPPING</b></h6>
+                                      </td>
+                                      <td>
+                                      <h6 class="grey-text">Flat Rate: $216.00</h6>
+                                      </td>
+                                      </tr>
+                                      <tr>
+                                          <td>
+                                          <h6><b>TOTAL</b></h6>
+                                          </td>
+                                          <td>
+                                          <h6 class="grey-text">$2210.00</h6>
+                                          </td>
+                                          </tr>
+                                         
+              </table>
+              <p>
+                  <label>
+                    <input name="group1" type="radio" />
+                    <span>CHECK PAYMENTS</span>
+                  </label>
+                </p>
+              </div>
+              <h6 class="hero-te">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</h6>
+              <p>
+                  <label>
+                    <input name="group1" type="radio" />
+                    <span>PAYPAL</span>
+                  </label>
+                  <h6 class="hero-te">Please send a check to Store Name, Store Street, Store Town, Store State / County, Store Postcode.</h6>
+                </p>
+                <form action="#">
+                    <p>
+                      <label>
+                        <input type="checkbox" />
+                        <span>I've read and accepted the <span style="color:#ff3368"> terms and conditions</span></span>
+                      </label>
+                    </p>
+                    <a href="#" class="btn-large14 hover">Proceed to PayPal</a>
+      </div>
+    
+  </div>
+</tbody>
+</section>
+<div class="container">
+  <h5><b>Shipping Details</b></h5>
+  <div class="row">
+      <div class="input-field col s12">
+        <input id="text" type="text" class="validate" required>
+        <label for="text">Leave a Message</label>
+      </div>
+</div>
+</div>
+ <!--Footer-->
+ <footer class="page-footer grey lighten-1">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Orexy</h5>
+          <p class="grey-text text-lighten-4">If you're looking to purchase furniture for your living room, you should think about buying living room sets. Buying a living room set will take all the trouble out of finding individual pieces of furniture that complement each other. Here at Wayfair, not only can you buy individual pieces of furniture for your living room, but you can also buy entire living room sets. Here are some questions that may arise as you search for the living room set of your dreams:</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+          <ul>
+                <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="shop-category.html">Shop Category</a></li>
+                <li><a class="grey-text text-lighten-3" href="login.html">Login</a></li>
+                <li><a class="grey-text text-lighten-3" href="blog.html">Blog</a></li>
+                <li><a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      This Template is Created with <span style="color:red;">&hearts;</span> by Girlscoding
+      <a class="grey-text text-lighten-4 right" href="product-checkout.html" >Back to top<i class="material-icons grey-text">keyboard_arrow_up</i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/materialize.js"></script>
+<script>
+   
+   $(document).ready(function () {
+      $('.sidenav').sidenav();
+      $('.dropdown-trigger').dropdown({hover: true});
+      $('select').formSelect();
+    });
+    
+   
+</script>
+</html>
